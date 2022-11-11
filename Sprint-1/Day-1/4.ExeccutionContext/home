@@ -1,0 +1,14 @@
+There are two types of execution context in JS
+1. Global Execution Context 
+2. Functional Execution Context
+
+The execution context tells that the java program at a perticular moment in time have acess to which of the variables and functions in the program.
+
+The Global execution context is created by default when we run the program and the functional execution context is only created when the program encounters a function.
+
+Each execution context has two phases 
+1. Creation phase
+2. Execution phase
+
+During the creation phase all the variables and functions present in the program are hoisted
+During the execution phase all the hoisted variables and functions are assigned the values and then proceed for the execution.
